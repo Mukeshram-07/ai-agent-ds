@@ -1,25 +1,61 @@
 # Ai Agent Ds
 
-## 🚀 Tech Stack
+![GitHub last commit](https://img.shields.io/github/last-commit/Mukeshram-07/ai-agent-ds)
+![GitHub repo size](https://img.shields.io/github/repo-size/Mukeshram-07/ai-agent-ds)
+
+## 📌 Overview
+
+This is a JavaScript/TypeScript web application.
+
+## 🛠️ Tech Stack
 
 - React
 - Vite
 - Tailwind CSS
+- Framer Motion
 
-## 📦 Installation
+## 📁 Project Structure
 
-```bash
-npm install
+```
+ai-agent-ds/
+├── public/
+├── src/
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
 ```
 
-## 🛠️ Available Scripts
+## 🚀 Getting Started
 
-- `npm run dev`
-- `npm run build`
-- `npm run lint`
-- `npm run preview`
-- `npm run test`
-- `npm run test:ui`
+```bash
+# Clone the repo
+git clone https://github.com/Mukeshram-07/ai-agent-ds.git
+cd ai-agent-ds
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development server
+npm run dev
+```
+
+## ⚙️ Environment Variables
+
+Create a `.env` file based on `.env.example`:
+
+```env
+VITE_GROQ_API_KEY=your_value_here
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ## 👤 Author
 
